@@ -14,3 +14,16 @@ docker rm <id_container>
 docker-compose up --build -d
 docker-compose down
 docker-compose up
+
+k3d cluster create nlw-unite --servers 2
+
+kubectl config use-context k3d-nlw-unite
+kubectl cluster-info
+kubectl
+kubectl get node
+kubectl get pods
+kubectl get ns
+kubectl get pods -n kube-system
+
+kubectl create ns test
+kubectl apply -f k8s/deployment.yaml -n test
