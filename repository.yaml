@@ -9,7 +9,7 @@ metadata:
 
 stringData:
   type: git
-  url: git@github.com:DiegoTeixeira7/nlw-unite-devops-terraform.git
+  url: git@github.com:DiegoTeixeira7/nlw-unite-devops.git
   sshPrivateKey: |
     -----BEGIN OPENSSH PRIVATE KEY-----
     -----END OPENSSH PRIVATE KEY-----
