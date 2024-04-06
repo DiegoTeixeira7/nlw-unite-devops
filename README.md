@@ -29,3 +29,10 @@ kubectl create ns test
 kubectl apply -f k8s/deployment.yaml -n test
 
 helm create deploy
+
+kubeclt create ns nlw-helm
+helm upgrade --install passin ./deploy -n nlw-helm
+
+https://argoproj.github.io/cd/
+
+kubectl delete ns test
