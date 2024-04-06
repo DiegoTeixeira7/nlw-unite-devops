@@ -27,3 +27,5 @@ kubectl get pods -n kube-system
 
 kubectl create ns test
 kubectl apply -f k8s/deployment.yaml -n test
+
+helm create deploy
