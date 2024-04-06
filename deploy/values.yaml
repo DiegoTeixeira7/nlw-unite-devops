@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: diegoqueiroz7/nlw.service.passin
   pullPolicy: Always
-  tag: 5e9697b
+  tag: '8618317'
   port: 3333
 imagePullSecrets: []
 nameOverride: ''
