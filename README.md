@@ -36,3 +36,5 @@ helm upgrade --install passin ./deploy -n nlw-helm
 https://argoproj.github.io/cd/
 
 kubectl delete ns test
+
+https://newrelic.com/
